@@ -1,0 +1,10 @@
+[package]
+name = "textor"
+version = "0.1.0"
+authors = ["Max Mindlin <maxmindlin@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["lib", "staticlib"]
+
+[dependencies]

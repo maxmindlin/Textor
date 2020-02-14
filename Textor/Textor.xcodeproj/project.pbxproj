@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDC0726623F61EFD00518F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC0726523F61EFD00518F97 /* AppDelegate.swift */; };
+		FDC0726823F61EFD00518F97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC0726723F61EFD00518F97 /* ViewController.swift */; };
+		FDC0726A23F61EFF00518F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC0726923F61EFF00518F97 /* Assets.xcassets */; };
+		FDC0726D23F61EFF00518F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC0726B23F61EFF00518F97 /* Main.storyboard */; };
+		FDC0728323F6238B00518F97 /* libtextor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC0728223F6238B00518F97 /* libtextor.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDC0726223F61EFD00518F97 /* Textor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Textor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC0726523F61EFD00518F97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDC0726723F61EFD00518F97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDC0726923F61EFF00518F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDC0726C23F61EFF00518F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDC0726E23F61EFF00518F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC0726F23F61EFF00518F97 /* Textor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Textor.entitlements; sourceTree = "<group>"; };
+		FDC0727623F61F8B00518F97 /* Textor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Textor-Bridging-Header.h"; sourceTree = "<group>"; };
+		FDC0727723F61F8B00518F97 /* textor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textor.h; sourceTree = "<group>"; };
+		FDC0728223F6238B00518F97 /* libtextor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtextor.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDC0725F23F61EFD00518F97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC0728323F6238B00518F97 /* libtextor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDC0725923F61EFD00518F97 = {
+			isa = PBXGroup;
+			children = (
+				FDC0727523F61F3400518F97 /* TextorLib */,
+				FDC0726423F61EFD00518F97 /* Textor */,
+				FDC0726323F61EFD00518F97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDC0726323F61EFD00518F97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC0726223F61EFD00518F97 /* Textor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC0726423F61EFD00518F97 /* Textor */ = {
+			isa = PBXGroup;
+			children = (
+				FDC0726523F61EFD00518F97 /* AppDelegate.swift */,
+				FDC0726723F61EFD00518F97 /* ViewController.swift */,
+				FDC0726923F61EFF00518F97 /* Assets.xcassets */,
+				FDC0726B23F61EFF00518F97 /* Main.storyboard */,
+				FDC0726E23F61EFF00518F97 /* Info.plist */,
+				FDC0726F23F61EFF00518F97 /* Textor.entitlements */,
+			);
+			path = Textor;
+			sourceTree = "<group>";
+		};
+		FDC0727523F61F3400518F97 /* TextorLib */ = {
+			isa = PBXGroup;
+			children = (
+				FDC0728223F6238B00518F97 /* libtextor.a */,
+				FDC0727723F61F8B00518F97 /* textor.h */,
+				FDC0727623F61F8B00518F97 /* Textor-Bridging-Header.h */,
+			);
+			path = TextorLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDC0726123F61EFD00518F97 /* Textor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC0727223F61EFF00518F97 /* Build configuration list for PBXNativeTarget "Textor" */;
+			buildPhases = (
+				FDC0728423F63C7400518F97 /* ShellScript */,
+				FDC0725E23F61EFD00518F97 /* Sources */,
+				FDC0725F23F61EFD00518F97 /* Frameworks */,
+				FDC0726023F61EFD00518F97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Textor;
+			productName = Textor;
+			productReference = FDC0726223F61EFD00518F97 /* Textor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDC0725A23F61EFD00518F97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Max Mindlin";
+				TargetAttributes = {
+					FDC0726123F61EFD00518F97 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = FDC0725D23F61EFD00518F97 /* Build configuration list for PBXProject "Textor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDC0725923F61EFD00518F97;
+			productRefGroup = FDC0726323F61EFD00518F97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDC0726123F61EFD00518F97 /* Textor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDC0726023F61EFD00518F97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC0726A23F61EFF00518F97 /* Assets.xcassets in Resources */,
+				FDC0726D23F61EFF00518F97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FDC0728423F63C7400518F97 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n# Location of rust project\nRUST_PROJ=\"/Users/maxmindlin/dev/textor\"\n# Location of the \"Anvil\" folder in the iOS project\n# OS_textor=\"$PROJECT_DIR/Textor/TextorLib/\"\n# Provide access to Rust utilities\nPATH=\"$PATH:/Users/maxmindlin/.cargo/bin\"\n\ncd \"$RUST_PROJ\"\n# Generate C bindings\ncbindgen -l C -o target/textor.h\n\ncargo build --release\n\n# Copy resources to the iOS folder, overwriting old ones\ncp target/textor.h Textor/TextorLib\ncp target/release/libtextor.a Textor/TextorLib\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDC0725E23F61EFD00518F97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC0726823F61EFD00518F97 /* ViewController.swift in Sources */,
+				FDC0726623F61EFD00518F97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDC0726B23F61EFF00518F97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC0726C23F61EFF00518F97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDC0727023F61EFF00518F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/TextorLib";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDC0727123F61EFF00518F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/TextorLib";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FDC0727323F61EFF00518F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Textor/Textor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Textor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/TextorLib";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.Textor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TextorLib/Textor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FDC0727423F61EFF00518F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Textor/Textor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Textor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/TextorLib";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.Textor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TextorLib/Textor-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDC0725D23F61EFD00518F97 /* Build configuration list for PBXProject "Textor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC0727023F61EFF00518F97 /* Debug */,
+				FDC0727123F61EFF00518F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC0727223F61EFF00518F97 /* Build configuration list for PBXNativeTarget "Textor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC0727323F61EFF00518F97 /* Debug */,
+				FDC0727423F61EFF00518F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDC0725A23F61EFD00518F97 /* Project object */;
+}
