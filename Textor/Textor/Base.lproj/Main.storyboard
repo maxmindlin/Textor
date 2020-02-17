@@ -714,6 +714,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="copyToPasteboard:" target="XfG-lQ-9wD" id="pnT-wV-ecj"/>
+                                </connections>
                             </button>
                             <segmentedControl verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dTH-4V-fLG">
                                 <rect key="frame" x="18" y="59" width="455" height="24"/>
@@ -724,6 +727,9 @@
                                         <segment label="Memeify" selected="YES" tag="1"/>
                                     </segments>
                                 </segmentedCell>
+                                <connections>
+                                    <action selector="typeChanged:" target="XfG-lQ-9wD" id="Kxv-Vf-qtn"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <constraints>

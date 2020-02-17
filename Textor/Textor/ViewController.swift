@@ -39,8 +39,10 @@ class ViewController: NSViewController, NSTextFieldDelegate {
     func controlTextDidChange(_ obj: Notification) {
         typeChanged(self)
     }
-
+    
     @IBAction func copyToPasteboard(_ sender: Any) {
+        NSPasteboard.general.clearContents()
+        NSPasteboard.general.setString(output.stringValue, forType: .string)
     }
     
     func standard(_ input: String) -> String {
